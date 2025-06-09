@@ -2,7 +2,7 @@
 🌱 I’m currently learning using AI to help with programming<br><br>⚡ Fun fact I use AI a lot
 
 
-# 💻 Reading skills 😜:
+# 💻 AI skills :
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=gosheto1234&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false)<br/>
