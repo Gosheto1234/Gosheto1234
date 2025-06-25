@@ -17,4 +17,5 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gosheto1234/Gosheto1234/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/Gosheto1234/output/github-snake.svg" />
 </picture>
+![Beware of the shadows](https://raw.githubusercontent.com/Gosheto1234/Gosheto1234/main/assets/dark-typing.svg)
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
