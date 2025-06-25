@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="150">
+  <defs>
+    <!-- neon glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    /* animated gradient background */
+    @keyframes bg {
+      0%   { background-position:   0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position:   0% 50%; }
+    }
+    /* typing and cursor */
+    @keyframes typing { from { width: 0 } }
+    @keyframes blink  { 50% { border-color: transparent } }
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(-45deg, #070707, #1a1a1a, #111, #1a1a1a);
+      background-size: 400% 400%;
+      animation: bg 8s ease infinite;
+    }
+    .text {
+      font-family: "Fira Code", monospace;
+      font-size: 1.5em;
+      color: #0f0;
+      filter: url(#glow);
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #0f0;
+      animation:
+        typing 3s steps(23, end) forwards,
+        blink  .5s step-end infinite alternate;
+      width: 0;
+    }
+  </style>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="wrapper">
+      <div class="text">Beware of the shadows</div>
+    </div>
+  </foreignObject>
+</svg>
